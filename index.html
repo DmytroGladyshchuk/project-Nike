@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,103 +14,108 @@
         href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
 
 </head>
 
 <body>
-    <header>
-        <a href="# " class="header-logo">header-logo</a>
-        <nav class="nav">
-            <ul class=" nav-list">
-                <li class="naw-item>">Main page<a href="#"></a></li>
-                <li class="naw-item>">Benefits<a href="#"></a></li>
-                <li class="naw-item>">Advantages<a href="#"></a></li>
-                <li class="naw-item>">Reviews<a href="#"></a></li>
-                <li class="naw-item>">Contacts<a href="#"></a></li>
-                <li class="naw-item>">Order<a href="#"></a></li>
-                <li class="naw-item>">Ua English<a href="#"></a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <ul class="header_nav">
+            <li class="header_nav_item">
+                <a class="nav_link" href="#">Main page</a>
+            </li>
+            <li class="header_nav_item">
+                <a class="nav_link" href="#">Benefits</a>
+            </li>
+            <li class="header_nav_item">
+                <a class="nav_link" href="#">Advantages</a>
+            </li>
+            <li class="header_nav_item">
+                <a class="nav_link" href="#">Reviews</a>
+            </li>
+            <li class="header_nav_item">
+                <a class="nav_link" href="#">Contacts</a>
+            </li>
+            <li class="header_nav_item"><a class="nav_link" href="#">Order</a></li>
+        </ul>
+        <a class="language_link" href="#">Ua</a>
+        <a class="language_link" href="#">Eng</a>
+        </ul>
+        </div>
     </header>
     <main>
+        <main>
 
-        <section>
-            <a href="#">S&R</a>
-            <h1 class="title">ColoRawe</h1>
-            <h2 class="subtitle">Your dream Nike</h2>
-            <p class="description">
-                On this site you can find custom Nike sneakers of your dreams. The
-                original company caт`t create such beautiful sneakers as we do. Good
-                luck finding your way in the world of custom sneakers.
-            </p>
-            <button class="buy_button">Buy my Nike</button>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <p>Premium
-                        Quality</p> <img src="img/Звёзды 1(1).jpg" alt="звезды">
-                </li>
-                <li>
-                    <img src="img/Краски 1.jpg" alt="Краски">
-                    <p>Indelible
-                        paint</p>
-                </li>
-                <li>
-                    <p>Fast
-                        shipping</p> <img src="img/Грузан 1(1).png" alt=" грузан ">
-                </li>
-            </ul>
-        </section>
+            <section>
+                <a href="#">S&R</a>
+                <h1 class="title">ColoRawe</h1>
+                <h2 class="subtitle">Your dream Nike</h2>
+                <p class="description">
+                    On this site you can find custom Nike sneakers of your dreams. The
+                    original company caт`t create such beautiful sneakers as we do. Good
+                    luck finding your way in the world of custom sneakers.
+                </p>
+                <button class="buy_button">Buy my Nike</button>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <p>Premium
+                            Quality</p> <img src="img/stars1(1).jpg" alt="звезды">
+                    </li>
+                    <li>
+                        <img src="img/img1(1).png" alt="Краски">
+                        <p>Indelible
+                            paint</p>
+                    </li>
+                    <li>
+                        <p>Fast
+                            shipping</p> <img src="img/img3.jpg" alt=" грузан ">
+                    </li>
+                </ul>
 
+                <section class="Reviews_section">
+                    <div class="container">
+                        <h2 class="section_title">Reviews</h2>
+                        <ul class="review_list">
+                            <li class="review_list_item">
+                                <h3 class="review">
+                                    Sneakers are very comfortable and well painted, nothing has worn
+                                    off in a year.
+                                </h3>
+                                <p class="date">25.11</p>
+                                <h4 class="customer_name">John Teylor</h4>
+                                <p class="time_with_us">With us from 2018</p>
+                            </li>
+                            <li class="review_list_item">
+                                <h4 class="review">
+                                    I'm very happy with this color scheme. They match all my clothes.
+                                </h4>
+                                <p class="date">05.01</p>
+                                <h5 class="customer_name">Elizabeth Garsia</h5>
+                                <p class="time_with_us">With us from 2020</p>
+                            </li>
+                            <li class="review_list_item">
+                                <h4 class="review">
+                                    Just right if you need to go to a party. I use them actively, the
+                                    paint is super.
+                                </h4>
+                                <p class="date">18.06</p>
+                                <h5 class="customer_name">Tom Maquare</h5>
+                                <p class="time_with_us">With us from 2019</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="order">
+                    <footer>
 
+                        <label>
+                            <input type="email" name="email" placeholder="Write your email" />
+                        </label>
 
-        <section>
-            <h1> Reviews</h1>
-            <div class="card">
-                <h1>Sneakers are very
-                    comfortable and well
-                    painted, nothing has
-                    worn off in a year.</h1>
+                </section>
 
-                <p>25.11</p>
-                <h2>John Teylor</h2>
-                <h3>With us from 2018</h3>
-            </div>
-
-
-            <div class="card">
-                <h1>I'm very happy with this color scheme.
-                    They match all my clothes.</h1>
-
-                <p>05.01</p>
-                <h2>Elizabeth Garsia</h2>
-                <h3>With us from 2020</h3>
-            </div>
-
-
-            <div class="card">
-                <h1>Just right if you need to go to a party.
-                    I use them actively, the paint is super.</h1>
-
-                <p>18.06</p>
-                <h2>Tom Maquare</h2>
-                <h3>With us from 2019</h3>
-            </div>
-
-
-        </section>
-
-        <section>
-            <label>
-                <input type="email" name="email" placeholder="Write your email" />
-            </label>
-
-        </section>
-
-    </main>
-    <footer></footer>
+                </footer>
 
 </body>
 

@@ -69,6 +69,81 @@ body {
 } */
 
 
-body {
-    font-family: Roboto;
+.header {
+    background-color: #012D63;
+    font-size: 24px;
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+/* =================================================================================================================================================================== */
+.main-background
+/* width: 1440px; */
+
+
+
+
+.logo {
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 144px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+.image_list {
+    display: flex;
+    justify-content: center;
+}
+
+.Reviews_section {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 520px;
+    background-image: url(img/reviewsectionbg.jpg);
+    background-size: 100% 100%;
+}
+
+.section_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.review {
+    font-size: 24px;
+    width: 228px;
+    height: 112px;
+}
+
+.review_list {
+    display: flex;
 }
