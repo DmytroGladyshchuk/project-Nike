@@ -53,7 +53,7 @@ a {
 }
 
 body {
-    font-family: 'Jost';
+    font-family: 'Roboto';
     font-size: 22px;
 }
 
@@ -67,6 +67,18 @@ body {
     width: 1440px;
 }
 
+.nav_link {
+
+    color: #C7C7C7;
+    font-size: 24px;
+    font-weight: 300;
+
+
+}
+
+.nav_link:hover {
+    color: #FFF;
+}
 
 .header {
     background-color: #012D63;
@@ -74,24 +86,117 @@ body {
     display: flex;
 }
 
-.header-nav {
-    display: flex;
-    flex-direction: row;
+.logo_img {
+
+    width: 100px;
+    height: 60px;
 
 }
 
+
+.header_nav_div {
+
+    display: flex;
+    align-items: center;
+    width: 1400px;
+}
+
+.header_nav {
+    display: flex;
+    column-gap: 30px;
+}
+
+.language_link {
+
+    color: #DCDCDC;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 70px;
+}
+
+.en {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 5px;
+}
 
 
 
 /* =================================================================================================================================================================== */
-.main-background
-/* width: 1440px; */
+.main_background {
 
-    {
-    background-image: url(img/background\ \(1\));
-    background-repeat: no-repeat;
+    width: 1440px;
+    height: 860px;
 }
 
+.main_hero {
+
+    color: #FFF;
+    font-family: "PT Serif ";
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+.main_hero::before {
+
+    content: url(img/logo.png);
+    display: block;
+    margin-bottom: -25px;
+
+
+}
+
+.hero_section_div {
+
+    background-image: url(img/background-image.jpg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    height: 100%;
+}
+
+
+.hero_div {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+
+}
+
+.img_hero {
+
+    width: 160px;
+    height: 120px;
+}
+
+
+.title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+
+}
+
+.subtitle {
+
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+
+}
+
+.description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
 
 
 .nikelogo {
@@ -99,10 +204,7 @@ body {
 }
 
 .logo {
-    font-family: 'PT Serif', serif;
-    font-size: 48px;
-    font-weight: 400;
-    color: #fff;
+    margin-right: 150px;
 }
 
 .title {
@@ -118,24 +220,49 @@ body {
 }
 
 .description {
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.image_section {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    font-weight: 400;
-    background-image: url(img/background\ main\ 1.jpg);
-    background-repeat: no-repeat;
+.buy_button {
 
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    background: #8E32C6;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
 
 }
 
-.image_list {
+.specials {
     display: flex;
-    justify-content: center;
+    width: 1440px;
+    height: 606px;
+    background-image: url(img/special-background.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.section_list {
+
+
+    display: flex;
+    width: 1110px;
+    height: 396px;
+    stroke-width: 5px;
+    stroke: #8E32C6;
+    border: 5px solid #8E32C6;
+
+}
+
+.excerpt {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
 }
 
 
@@ -174,7 +301,7 @@ footer {
 }
 
 .footer_list {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
