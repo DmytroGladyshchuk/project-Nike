@@ -87,8 +87,17 @@ body {
 .main-background
 /* width: 1440px; */
 
+    {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 
+
+.nikelogo {
+    margin-top: 91px;
+}
 
 .logo {
     font-family: 'PT Serif', serif;
@@ -115,34 +124,31 @@ body {
     font-weight: 400;
 }
 
-
-
+.image_section {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 400;
+    background-image: url(img/imgsectionbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 606px;
+}
 
 .image_list {
     display: flex;
     justify-content: center;
 }
 
-.Reviews_section {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    height: 520px;
-    background-image: url(img/reviewsectionbg.jpg);
-    background-size: 100% 100%;
-}
 
-.section_title {
-    font-family: 'Playfair Display', serif;
+.logo {
+    font-family: 'PT Serif', serif;
     font-size: 48px;
-    text-align: center;
+    font-weight: 400;
+    color: #fff;
 }
 
-.review {
-    font-size: 24px;
-    width: 228px;
-    height: 112px;
-}
-
-.review_list {
-    display: flex;
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 144px;
+    font-weight: 400;
 }
