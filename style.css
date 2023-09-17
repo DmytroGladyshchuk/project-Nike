@@ -125,11 +125,18 @@ body {
 
 /* =================================================================================================================================================================== */
 .main_background {
-
-
-    width: 1440px;
-    height: 860px;
+    background-image: url(img/background-image.jpg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
+
+
+
+
+
 
 .main_hero {
 
@@ -149,17 +156,7 @@ body {
 
 }
 
-.hero_section_div {
-
-    background-image: url(img/background-image.jpg);
-    background-repeat: no-repeat;
-    max-width: 1440px;
-    background-position: center;
-    height: 100%;
-}
-
-
-.hero_div {
+.hero_section_div .hero_div {
     display: flex;
     flex-direction: column;
     width: 640px;
@@ -239,9 +236,9 @@ body {
 
 .specials {
     display: flex;
-    width: 1440px;
     height: 606px;
     background-image: url(img/special-background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
@@ -304,7 +301,6 @@ body {
 
     background-image: url(img/flowers.png), url(img/review-background.jpg);
     background-repeat: no-repeat;
-    width: 1440px;
     height: 520px;
     background-position: left bottom;
 }
