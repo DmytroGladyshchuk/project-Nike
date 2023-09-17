@@ -337,7 +337,7 @@ body {
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
     width: 255px;
     height: 292px;
-    padding: 13px 14px 14px;
+    padding: 49px 14px 29px 13px;
 }
 
 .review_list_item:nth-child(2) {
@@ -346,7 +346,7 @@ body {
     box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
     width: 255px;
     height: 292px;
-    padding: 18px 49px 9px;
+    padding: 49px 18px 9px;
 
 }
 
@@ -356,8 +356,8 @@ body {
     box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
     width: 255px;
     height: 292px;
-    padding: 18px 49px 9px 30px;
-    ;
+    padding: 49px 9px 30px 18px;
+
 }
 
 .review_img {
@@ -401,7 +401,11 @@ body {
     flex-direction: row;
     justify-content: flex-start;
 
+    margin-top: 50px;
+
+
 }
+
 
 .footer {
     background-color: #021635;
@@ -470,9 +474,8 @@ body {
     font-weight: 400;
 }
 
-.footer_list>a {
+.footer_list>p {
 
     display: flex;
-    justify-content: flex-end;
-
+    justify-content: flex-start
 }
