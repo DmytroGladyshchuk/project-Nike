@@ -126,6 +126,7 @@ body {
 /* =================================================================================================================================================================== */
 .main_background {
 
+
     width: 1440px;
     height: 860px;
 }
@@ -242,26 +243,46 @@ body {
     height: 606px;
     background-image: url(img/special-background.jpg);
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .section_list {
-
-
     display: flex;
     width: 1110px;
     height: 396px;
     stroke-width: 5px;
     stroke: #8E32C6;
     border: 5px solid #8E32C6;
+    align-items: center;
+    column-gap: 50px;
+    justify-content: center;
 
+}
+
+.section_item_mid {
+    width: 335px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #fff;
+    flex-direction: column;
+    border-right: 1px solid #fff;
+
+}
+
+.section_item_mid>img {
+
+    width: 240px;
+    height: 240px;
 }
 
 .excerpt {
     font-family: 'Playfair Display';
     font-size: 36px;
     font-weight: 400;
-    color: #FFF;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -279,18 +300,110 @@ body {
     font-weight: 400;
 }
 
-.review {
-    font-size: 24px;
-    width: 228px;
-    height: 112px;
+.Reviews_section {
+
+    background-image: url(img/flowers.png), url(img/review-background.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 520px;
+    background-position: left bottom;
+}
+
+.section_title {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+
 }
 
 .review_list {
+
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+
 }
 
 
-footer {
+
+
+.review_list_item:nth-child(1) {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    width: 255px;
+    height: 292px;
+    padding: 13px 14px 14px;
+}
+
+.review_list_item:nth-child(2) {
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    width: 255px;
+    height: 292px;
+    padding: 18px 49px 9px;
+
+}
+
+.review_list_item:nth-child(3) {
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    width: 255px;
+    height: 292px;
+    padding: 18px 49px 9px 30px;
+    ;
+}
+
+.review_img {
+
+    width: 31px;
+    height: 31px;
+}
+
+.review_list_item {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.date {
+
+    color: #D8D8D8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.customer_name {
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.time_with_us {
+
+    font-size: 12px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.photo_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.footer {
     background-color: #021635;
     color: #fff;
 }
@@ -309,4 +422,57 @@ footer {
 .logo_footer {
     font-size: 24px;
     color: #fff;
+}
+
+.order {
+
+    background-image: url(img/footer-background.jpg);
+}
+
+.title_footer {
+
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.footer {
+
+    display: flex;
+}
+
+
+
+.label {
+
+    width: 690px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background: #FFF;
+    justify-content: center;
+}
+
+.button_Nike {
+
+    width: 248px;
+    height: 68px;
+    border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer_list>a {
+
+    display: flex;
+    justify-content: flex-end;
+
 }
