@@ -127,7 +127,6 @@ body {
 .main_background {
     background-image: url(img/background-image.jpg);
     background-repeat: no-repeat;
-    max-width: 1440px;
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -300,6 +299,7 @@ body {
 .Reviews_section {
 
     background-image: url(img/flowers.png), url(img/review-background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 520px;
     background-position: left bottom;
@@ -427,6 +427,7 @@ body {
 .order {
 
     background-image: url(img/footer-background.jpg);
+    background-size: cover;
 }
 
 .title_footer {
