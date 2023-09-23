@@ -469,9 +469,13 @@ body {
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
+    margin: 0 auto;
+    display: inline-block;
 }
 
-.footer_list>p {}
+.footer_list_item {
+    display: flex;
+}
 
 .input_order {
 
@@ -479,7 +483,9 @@ body {
     background: #FFF;
     width: 580px;
     height: 50px;
-
+    row-gap: 18px;
+    padding: 12px;
+    25
 }
 
 .form_order {
@@ -493,5 +499,10 @@ body {
 
 
     margin: 0 auto;
-    width: 1440px;
+}
+
+.email {
+
+    display: flex;
+
 }
