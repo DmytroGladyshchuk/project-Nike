@@ -106,12 +106,30 @@ body {
     column-gap: 30px;
 }
 
+
+
+
+
+
+
+.language_link:not(:last-child) {
+
+    margin-left: 70px;
+}
+
 .language_link {
 
     color: #DCDCDC;
     font-size: 24px;
     font-weight: 300;
-    margin-left: 70px;
+}
+
+.ua {
+
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 5px;
 }
 
 .en {
@@ -120,8 +138,6 @@ body {
     font-weight: 400;
     margin-left: 5px;
 }
-
-
 
 /* =================================================================================================================================================================== */
 .main_background {
@@ -143,15 +159,16 @@ body {
     font-family: "PT Serif ";
     font-size: 48px;
     font-weight: 400;
-    line-height: o, 5;
+    line-height: 0.5;
+    text-align: center;
+    width: 160px;
 
 }
 
 .main_hero::before {
 
-    content: url(img/logo.png);
+    content: url(img/logo_hero.png);
     display: block;
-    margin-bottom: -25px;
 
 
 }
@@ -203,6 +220,7 @@ body {
 
 .logo {
     margin-right: 150px;
+    margin-top: 16px;
 }
 
 .title {
@@ -336,7 +354,7 @@ body {
 .review_list_item:nth-child(1) {
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
     width: 255px;
     height: 292px;
     padding: 49px 14px 29px 13px;
@@ -345,20 +363,21 @@ body {
 .review_list_item:nth-child(2) {
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
     width: 255px;
     height: 292px;
     padding: 49px 18px 9px;
+
 
 }
 
 .review_list_item:nth-child(3) {
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
-    width: 255px;
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     height: 292px;
     padding: 49px 9px 30px 18px;
+    width: 255px;
 
 }
 
@@ -404,10 +423,13 @@ body {
     justify-content: flex-start;
 
     margin-top: 50px;
-
-
 }
 
+.photo_div_3 {
+
+    margin-top: 20px;
+
+}
 
 .footer {
     background-color: #021635;
@@ -438,6 +460,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 21px;
+    padding-bottom: 37px;
 }
 
 .title_footer {
@@ -455,6 +479,8 @@ body {
 .footer {
 
     display: flex;
+    padding-bottom: 50px;
+    padding-top: 45px;
 }
 
 
@@ -475,6 +501,18 @@ body {
 
 .footer_list {
     display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #9B9B9B;
+    row-gap: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.footer_list_item {
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .input_order {
@@ -492,6 +530,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 18px;
+    margin-top: 33px;
+
 }
 
 .div_order {
@@ -500,8 +541,23 @@ body {
     margin: 0 auto;
 }
 
-.email {
+.footer_div {
 
     display: flex;
+    justify-content: space-between;
+}
 
+.description_last {
+    margin-top: 24px;
+}
+
+.logo_div {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_footer {
+    line-height: 0.5;
+    text-align: center;
 }
